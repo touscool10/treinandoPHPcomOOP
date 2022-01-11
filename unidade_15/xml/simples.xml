@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+<loja>
+    <produto>
+        <nomeproduto>Biscottis</nomeproduto>
+        <descricao>All-natural bite-sized biscuits.</descricao>
+        <codigobarra>789151 823800</codigobarra>
+        <tempoentrega>15</tempoentrega>
+        <precounitario>20.00</precounitario>
+        <estoque>100</estoque>
+        <imagemgrande>images/product_images/HoneyBiscotti_Big.jpg</imagemgrande>  
+    </produto>
+</loja>
