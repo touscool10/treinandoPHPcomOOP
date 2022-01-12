@@ -1,5 +1,6 @@
 <?php
-    class ContaCorrente extends Conta {
+    include_once('classes/Conta.class.php');
+    final class ContaCorrente extends Conta {
         public $Limite;
         
         function __construct($Banco, $Agencia, $Conta, $NomeCliente, $Senha, $Saldo, $Limite) {

@@ -1,5 +1,6 @@
 <?php
-    class ContaPoupanca extends Conta {
+    include_once('classes/Conta.class.php');
+    final class ContaPoupanca extends Conta {
         public $Aniversario;
         
         function __construct($Banco, $Agencia, $Conta, $NomeCliente, $Senha, $Saldo, $Aniversario) {
