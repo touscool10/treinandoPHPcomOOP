@@ -1,3 +1,10 @@
+<?php
+    include_once("classes/Casa.class.php");
+    $minhaCasa = new Casa();
+    $minhaCasa->entrar();     
+
+?>
+
 <!doctype html>
 <html>
     <head>
